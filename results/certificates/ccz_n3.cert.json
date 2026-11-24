@@ -1,0 +1,62 @@
+{
+  "schema_version": "SYMPLECTIC-MAGIC-CERT-1.0",
+  "cert_id": "ccz_n3",
+  "tier": "Tier1_SingleClique",
+  "state_name": "3-qubit Toffoli magic state |CCZ>",
+  "n_qubits": 3,
+  "witness_W": {
+    "XII": 1,
+    "ZXI": 1,
+    "ZZX": -1,
+    "YXY": 1
+  },
+  "atoms": [
+    {
+      "kind": "clique",
+      "weight": 1,
+      "terms": [
+        [
+          "XII",
+          1
+        ],
+        [
+          "ZXI",
+          1
+        ],
+        [
+          "ZZX",
+          -1
+        ],
+        [
+          "YXY",
+          1
+        ]
+      ]
+    }
+  ],
+  "use_chvatal_gomory_floor": "no",
+  "state_expectations": {
+    "XII": {
+      "kind": "exact",
+      "val": "1/2"
+    },
+    "ZXI": {
+      "kind": "exact",
+      "val": "1/2"
+    },
+    "ZZX": {
+      "kind": "exact",
+      "val": "-1/2"
+    },
+    "YXY": {
+      "kind": "exact",
+      "val": "1/2"
+    }
+  },
+  "claimed_beta_plus": "1",
+  "claimed_beta_minus": "1",
+  "claimed_W_rho_lb": "2",
+  "claimed_R_lower_bound": "2",
+  "claimed_p_noise_cert": "1/2",
+  "verify_exact_stab_enumeration": "yes"
+}

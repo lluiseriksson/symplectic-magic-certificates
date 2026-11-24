@@ -1,0 +1,299 @@
+{
+  "schema_version": "SYMPLECTIC-MAGIC-CERT-1.0",
+  "cert_id": "jw_k21_n10",
+  "tier": "Tier1_SingleClique",
+  "state_name": "Majorana clique mixed state rho_K21 (n=10)",
+  "n_qubits": 10,
+  "witness_W": {
+    "XIIIIIIIII": 1,
+    "YIIIIIIIII": 1,
+    "ZXIIIIIIII": 1,
+    "ZYIIIIIIII": 1,
+    "ZZXIIIIIII": 1,
+    "ZZYIIIIIII": 1,
+    "ZZZXIIIIII": 1,
+    "ZZZYIIIIII": 1,
+    "ZZZZXIIIII": 1,
+    "ZZZZYIIIII": 1,
+    "ZZZZZXIIII": 1,
+    "ZZZZZYIIII": 1,
+    "ZZZZZZXIII": 1,
+    "ZZZZZZYIII": 1,
+    "ZZZZZZZXII": 1,
+    "ZZZZZZZYII": 1,
+    "ZZZZZZZZXI": 1,
+    "ZZZZZZZZYI": 1,
+    "ZZZZZZZZZX": 1,
+    "ZZZZZZZZZY": 1,
+    "ZZZZZZZZZZ": 1
+  },
+  "atoms": [
+    {
+      "kind": "clique",
+      "weight": 1,
+      "terms": [
+        [
+          "XIIIIIIIII",
+          1
+        ],
+        [
+          "YIIIIIIIII",
+          1
+        ],
+        [
+          "ZXIIIIIIII",
+          1
+        ],
+        [
+          "ZYIIIIIIII",
+          1
+        ],
+        [
+          "ZZXIIIIIII",
+          1
+        ],
+        [
+          "ZZYIIIIIII",
+          1
+        ],
+        [
+          "ZZZXIIIIII",
+          1
+        ],
+        [
+          "ZZZYIIIIII",
+          1
+        ],
+        [
+          "ZZZZXIIIII",
+          1
+        ],
+        [
+          "ZZZZYIIIII",
+          1
+        ],
+        [
+          "ZZZZZXIIII",
+          1
+        ],
+        [
+          "ZZZZZYIIII",
+          1
+        ],
+        [
+          "ZZZZZZXIII",
+          1
+        ],
+        [
+          "ZZZZZZYIII",
+          1
+        ],
+        [
+          "ZZZZZZZXII",
+          1
+        ],
+        [
+          "ZZZZZZZYII",
+          1
+        ],
+        [
+          "ZZZZZZZZXI",
+          1
+        ],
+        [
+          "ZZZZZZZZYI",
+          1
+        ],
+        [
+          "ZZZZZZZZZX",
+          1
+        ],
+        [
+          "ZZZZZZZZZY",
+          1
+        ],
+        [
+          "ZZZZZZZZZZ",
+          1
+        ]
+      ]
+    }
+  ],
+  "use_chvatal_gomory_floor": "no",
+  "state_expectations": {
+    "XIIIIIIIII": {
+      "kind": "radical_interval",
+      "sign": 1,
+      "rad_num": 1,
+      "rad_den": 21,
+      "lo": "218217/1000000",
+      "hi": "109109/500000"
+    },
+    "YIIIIIIIII": {
+      "kind": "radical_interval",
+      "sign": 1,
+      "rad_num": 1,
+      "rad_den": 21,
+      "lo": "218217/1000000",
+      "hi": "109109/500000"
+    },
+    "ZXIIIIIIII": {
+      "kind": "radical_interval",
+      "sign": 1,
+      "rad_num": 1,
+      "rad_den": 21,
+      "lo": "218217/1000000",
+      "hi": "109109/500000"
+    },
+    "ZYIIIIIIII": {
+      "kind": "radical_interval",
+      "sign": 1,
+      "rad_num": 1,
+      "rad_den": 21,
+      "lo": "218217/1000000",
+      "hi": "109109/500000"
+    },
+    "ZZXIIIIIII": {
+      "kind": "radical_interval",
+      "sign": 1,
+      "rad_num": 1,
+      "rad_den": 21,
+      "lo": "218217/1000000",
+      "hi": "109109/500000"
+    },
+    "ZZYIIIIIII": {
+      "kind": "radical_interval",
+      "sign": 1,
+      "rad_num": 1,
+      "rad_den": 21,
+      "lo": "218217/1000000",
+      "hi": "109109/500000"
+    },
+    "ZZZXIIIIII": {
+      "kind": "radical_interval",
+      "sign": 1,
+      "rad_num": 1,
+      "rad_den": 21,
+      "lo": "218217/1000000",
+      "hi": "109109/500000"
+    },
+    "ZZZYIIIIII": {
+      "kind": "radical_interval",
+      "sign": 1,
+      "rad_num": 1,
+      "rad_den": 21,
+      "lo": "218217/1000000",
+      "hi": "109109/500000"
+    },
+    "ZZZZXIIIII": {
+      "kind": "radical_interval",
+      "sign": 1,
+      "rad_num": 1,
+      "rad_den": 21,
+      "lo": "218217/1000000",
+      "hi": "109109/500000"
+    },
+    "ZZZZYIIIII": {
+      "kind": "radical_interval",
+      "sign": 1,
+      "rad_num": 1,
+      "rad_den": 21,
+      "lo": "218217/1000000",
+      "hi": "109109/500000"
+    },
+    "ZZZZZXIIII": {
+      "kind": "radical_interval",
+      "sign": 1,
+      "rad_num": 1,
+      "rad_den": 21,
+      "lo": "218217/1000000",
+      "hi": "109109/500000"
+    },
+    "ZZZZZYIIII": {
+      "kind": "radical_interval",
+      "sign": 1,
+      "rad_num": 1,
+      "rad_den": 21,
+      "lo": "218217/1000000",
+      "hi": "109109/500000"
+    },
+    "ZZZZZZXIII": {
+      "kind": "radical_interval",
+      "sign": 1,
+      "rad_num": 1,
+      "rad_den": 21,
+      "lo": "218217/1000000",
+      "hi": "109109/500000"
+    },
+    "ZZZZZZYIII": {
+      "kind": "radical_interval",
+      "sign": 1,
+      "rad_num": 1,
+      "rad_den": 21,
+      "lo": "218217/1000000",
+      "hi": "109109/500000"
+    },
+    "ZZZZZZZXII": {
+      "kind": "radical_interval",
+      "sign": 1,
+      "rad_num": 1,
+      "rad_den": 21,
+      "lo": "218217/1000000",
+      "hi": "109109/500000"
+    },
+    "ZZZZZZZYII": {
+      "kind": "radical_interval",
+      "sign": 1,
+      "rad_num": 1,
+      "rad_den": 21,
+      "lo": "218217/1000000",
+      "hi": "109109/500000"
+    },
+    "ZZZZZZZZXI": {
+      "kind": "radical_interval",
+      "sign": 1,
+      "rad_num": 1,
+      "rad_den": 21,
+      "lo": "218217/1000000",
+      "hi": "109109/500000"
+    },
+    "ZZZZZZZZYI": {
+      "kind": "radical_interval",
+      "sign": 1,
+      "rad_num": 1,
+      "rad_den": 21,
+      "lo": "218217/1000000",
+      "hi": "109109/500000"
+    },
+    "ZZZZZZZZZX": {
+      "kind": "radical_interval",
+      "sign": 1,
+      "rad_num": 1,
+      "rad_den": 21,
+      "lo": "218217/1000000",
+      "hi": "109109/500000"
+    },
+    "ZZZZZZZZZY": {
+      "kind": "radical_interval",
+      "sign": 1,
+      "rad_num": 1,
+      "rad_den": 21,
+      "lo": "218217/1000000",
+      "hi": "109109/500000"
+    },
+    "ZZZZZZZZZZ": {
+      "kind": "radical_interval",
+      "sign": 1,
+      "rad_num": 1,
+      "rad_den": 21,
+      "lo": "218217/1000000",
+      "hi": "109109/500000"
+    }
+  },
+  "claimed_beta_plus": "1",
+  "claimed_beta_minus": "1",
+  "claimed_W_rho_lb": "4582557/1000000",
+  "claimed_R_lower_bound": "4582557/1000000",
+  "claimed_p_noise_cert": "3582557/4582557",
+  "verify_exact_stab_enumeration": "no"
+}

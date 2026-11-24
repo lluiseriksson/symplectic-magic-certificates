@@ -1,0 +1,871 @@
+{
+  "schema_version": "SYMPLECTIC-MAGIC-CERT-1.0",
+  "cert_id": "jw_k65_n32",
+  "tier": "Tier1_SingleClique",
+  "state_name": "Majorana clique mixed state rho_K65 (n=32)",
+  "n_qubits": 32,
+  "witness_W": {
+    "XIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII": 1,
+    "YIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII": 1,
+    "ZXIIIIIIIIIIIIIIIIIIIIIIIIIIIIII": 1,
+    "ZYIIIIIIIIIIIIIIIIIIIIIIIIIIIIII": 1,
+    "ZZXIIIIIIIIIIIIIIIIIIIIIIIIIIIII": 1,
+    "ZZYIIIIIIIIIIIIIIIIIIIIIIIIIIIII": 1,
+    "ZZZXIIIIIIIIIIIIIIIIIIIIIIIIIIII": 1,
+    "ZZZYIIIIIIIIIIIIIIIIIIIIIIIIIIII": 1,
+    "ZZZZXIIIIIIIIIIIIIIIIIIIIIIIIIII": 1,
+    "ZZZZYIIIIIIIIIIIIIIIIIIIIIIIIIII": 1,
+    "ZZZZZXIIIIIIIIIIIIIIIIIIIIIIIIII": 1,
+    "ZZZZZYIIIIIIIIIIIIIIIIIIIIIIIIII": 1,
+    "ZZZZZZXIIIIIIIIIIIIIIIIIIIIIIIII": 1,
+    "ZZZZZZYIIIIIIIIIIIIIIIIIIIIIIIII": 1,
+    "ZZZZZZZXIIIIIIIIIIIIIIIIIIIIIIII": 1,
+    "ZZZZZZZYIIIIIIIIIIIIIIIIIIIIIIII": 1,
+    "ZZZZZZZZXIIIIIIIIIIIIIIIIIIIIIII": 1,
+    "ZZZZZZZZYIIIIIIIIIIIIIIIIIIIIIII": 1,
+    "ZZZZZZZZZXIIIIIIIIIIIIIIIIIIIIII": 1,
+    "ZZZZZZZZZYIIIIIIIIIIIIIIIIIIIIII": 1,
+    "ZZZZZZZZZZXIIIIIIIIIIIIIIIIIIIII": 1,
+    "ZZZZZZZZZZYIIIIIIIIIIIIIIIIIIIII": 1,
+    "ZZZZZZZZZZZXIIIIIIIIIIIIIIIIIIII": 1,
+    "ZZZZZZZZZZZYIIIIIIIIIIIIIIIIIIII": 1,
+    "ZZZZZZZZZZZZXIIIIIIIIIIIIIIIIIII": 1,
+    "ZZZZZZZZZZZZYIIIIIIIIIIIIIIIIIII": 1,
+    "ZZZZZZZZZZZZZXIIIIIIIIIIIIIIIIII": 1,
+    "ZZZZZZZZZZZZZYIIIIIIIIIIIIIIIIII": 1,
+    "ZZZZZZZZZZZZZZXIIIIIIIIIIIIIIIII": 1,
+    "ZZZZZZZZZZZZZZYIIIIIIIIIIIIIIIII": 1,
+    "ZZZZZZZZZZZZZZZXIIIIIIIIIIIIIIII": 1,
+    "ZZZZZZZZZZZZZZZYIIIIIIIIIIIIIIII": 1,
+    "ZZZZZZZZZZZZZZZZXIIIIIIIIIIIIIII": 1,
+    "ZZZZZZZZZZZZZZZZYIIIIIIIIIIIIIII": 1,
+    "ZZZZZZZZZZZZZZZZZXIIIIIIIIIIIIII": 1,
+    "ZZZZZZZZZZZZZZZZZYIIIIIIIIIIIIII": 1,
+    "ZZZZZZZZZZZZZZZZZZXIIIIIIIIIIIII": 1,
+    "ZZZZZZZZZZZZZZZZZZYIIIIIIIIIIIII": 1,
+    "ZZZZZZZZZZZZZZZZZZZXIIIIIIIIIIII": 1,
+    "ZZZZZZZZZZZZZZZZZZZYIIIIIIIIIIII": 1,
+    "ZZZZZZZZZZZZZZZZZZZZXIIIIIIIIIII": 1,
+    "ZZZZZZZZZZZZZZZZZZZZYIIIIIIIIIII": 1,
+    "ZZZZZZZZZZZZZZZZZZZZZXIIIIIIIIII": 1,
+    "ZZZZZZZZZZZZZZZZZZZZZYIIIIIIIIII": 1,
+    "ZZZZZZZZZZZZZZZZZZZZZZXIIIIIIIII": 1,
+    "ZZZZZZZZZZZZZZZZZZZZZZYIIIIIIIII": 1,
+    "ZZZZZZZZZZZZZZZZZZZZZZZXIIIIIIII": 1,
+    "ZZZZZZZZZZZZZZZZZZZZZZZYIIIIIIII": 1,
+    "ZZZZZZZZZZZZZZZZZZZZZZZZXIIIIIII": 1,
+    "ZZZZZZZZZZZZZZZZZZZZZZZZYIIIIIII": 1,
+    "ZZZZZZZZZZZZZZZZZZZZZZZZZXIIIIII": 1,
+    "ZZZZZZZZZZZZZZZZZZZZZZZZZYIIIIII": 1,
+    "ZZZZZZZZZZZZZZZZZZZZZZZZZZXIIIII": 1,
+    "ZZZZZZZZZZZZZZZZZZZZZZZZZZYIIIII": 1,
+    "ZZZZZZZZZZZZZZZZZZZZZZZZZZZXIIII": 1,
+    "ZZZZZZZZZZZZZZZZZZZZZZZZZZZYIIII": 1,
+    "ZZZZZZZZZZZZZZZZZZZZZZZZZZZZXIII": 1,
+    "ZZZZZZZZZZZZZZZZZZZZZZZZZZZZYIII": 1,
+    "ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZXII": 1,
+    "ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZYII": 1,
+    "ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZXI": 1,
+    "ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZYI": 1,
+    "ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZX": 1,
+    "ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZY": 1,
+    "ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ": 1
+  },
+  "atoms": [
+    {
+      "kind": "clique",
+      "weight": 1,
+      "terms": [
+        [
+          "XIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII",
+          1
+        ],
+        [
+          "YIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII",
+          1
+        ],
+        [
+          "ZXIIIIIIIIIIIIIIIIIIIIIIIIIIIIII",
+          1
+        ],
+        [
+          "ZYIIIIIIIIIIIIIIIIIIIIIIIIIIIIII",
+          1
+        ],
+        [
+          "ZZXIIIIIIIIIIIIIIIIIIIIIIIIIIIII",
+          1
+        ],
+        [
+          "ZZYIIIIIIIIIIIIIIIIIIIIIIIIIIIII",
+          1
+        ],
+        [
+          "ZZZXIIIIIIIIIIIIIIIIIIIIIIIIIIII",
+          1
+        ],
+        [
+          "ZZZYIIIIIIIIIIIIIIIIIIIIIIIIIIII",
+          1
+        ],
+        [
+          "ZZZZXIIIIIIIIIIIIIIIIIIIIIIIIIII",
+          1
+        ],
+        [
+          "ZZZZYIIIIIIIIIIIIIIIIIIIIIIIIIII",
+          1
+        ],
+        [
+          "ZZZZZXIIIIIIIIIIIIIIIIIIIIIIIIII",
+          1
+        ],
+        [
+          "ZZZZZYIIIIIIIIIIIIIIIIIIIIIIIIII",
+          1
+        ],
+        [
+          "ZZZZZZXIIIIIIIIIIIIIIIIIIIIIIIII",
+          1
+        ],
+        [
+          "ZZZZZZYIIIIIIIIIIIIIIIIIIIIIIIII",
+          1
+        ],
+        [
+          "ZZZZZZZXIIIIIIIIIIIIIIIIIIIIIIII",
+          1
+        ],
+        [
+          "ZZZZZZZYIIIIIIIIIIIIIIIIIIIIIIII",
+          1
+        ],
+        [
+          "ZZZZZZZZXIIIIIIIIIIIIIIIIIIIIIII",
+          1
+        ],
+        [
+          "ZZZZZZZZYIIIIIIIIIIIIIIIIIIIIIII",
+          1
+        ],
+        [
+          "ZZZZZZZZZXIIIIIIIIIIIIIIIIIIIIII",
+          1
+        ],
+        [
+          "ZZZZZZZZZYIIIIIIIIIIIIIIIIIIIIII",
+          1
+        ],
+        [
+          "ZZZZZZZZZZXIIIIIIIIIIIIIIIIIIIII",
+          1
+        ],
+        [
+          "ZZZZZZZZZZYIIIIIIIIIIIIIIIIIIIII",
+          1
+        ],
+        [
+          "ZZZZZZZZZZZXIIIIIIIIIIIIIIIIIIII",
+          1
+        ],
+        [
+          "ZZZZZZZZZZZYIIIIIIIIIIIIIIIIIIII",
+          1
+        ],
+        [
+          "ZZZZZZZZZZZZXIIIIIIIIIIIIIIIIIII",
+          1
+        ],
+        [
+          "ZZZZZZZZZZZZYIIIIIIIIIIIIIIIIIII",
+          1
+        ],
+        [
+          "ZZZZZZZZZZZZZXIIIIIIIIIIIIIIIIII",
+          1
+        ],
+        [
+          "ZZZZZZZZZZZZZYIIIIIIIIIIIIIIIIII",
+          1
+        ],
+        [
+          "ZZZZZZZZZZZZZZXIIIIIIIIIIIIIIIII",
+          1
+        ],
+        [
+          "ZZZZZZZZZZZZZZYIIIIIIIIIIIIIIIII",
+          1
+        ],
+        [
+          "ZZZZZZZZZZZZZZZXIIIIIIIIIIIIIIII",
+          1
+        ],
+        [
+          "ZZZZZZZZZZZZZZZYIIIIIIIIIIIIIIII",
+          1
+        ],
+        [
+          "ZZZZZZZZZZZZZZZZXIIIIIIIIIIIIIII",
+          1
+        ],
+        [
+          "ZZZZZZZZZZZZZZZZYIIIIIIIIIIIIIII",
+          1
+        ],
+        [
+          "ZZZZZZZZZZZZZZZZZXIIIIIIIIIIIIII",
+          1
+        ],
+        [
+          "ZZZZZZZZZZZZZZZZZYIIIIIIIIIIIIII",
+          1
+        ],
+        [
+          "ZZZZZZZZZZZZZZZZZZXIIIIIIIIIIIII",
+          1
+        ],
+        [
+          "ZZZZZZZZZZZZZZZZZZYIIIIIIIIIIIII",
+          1
+        ],
+        [
+          "ZZZZZZZZZZZZZZZZZZZXIIIIIIIIIIII",
+          1
+        ],
+        [
+          "ZZZZZZZZZZZZZZZZZZZYIIIIIIIIIIII",
+          1
+        ],
+        [
+          "ZZZZZZZZZZZZZZZZZZZZXIIIIIIIIIII",
+          1
+        ],
+        [
+          "ZZZZZZZZZZZZZZZZZZZZYIIIIIIIIIII",
+          1
+        ],
+        [
+          "ZZZZZZZZZZZZZZZZZZZZZXIIIIIIIIII",
+          1
+        ],
+        [
+          "ZZZZZZZZZZZZZZZZZZZZZYIIIIIIIIII",
+          1
+        ],
+        [
+          "ZZZZZZZZZZZZZZZZZZZZZZXIIIIIIIII",
+          1
+        ],
+        [
+          "ZZZZZZZZZZZZZZZZZZZZZZYIIIIIIIII",
+          1
+        ],
+        [
+          "ZZZZZZZZZZZZZZZZZZZZZZZXIIIIIIII",
+          1
+        ],
+        [
+          "ZZZZZZZZZZZZZZZZZZZZZZZYIIIIIIII",
+          1
+        ],
+        [
+          "ZZZZZZZZZZZZZZZZZZZZZZZZXIIIIIII",
+          1
+        ],
+        [
+          "ZZZZZZZZZZZZZZZZZZZZZZZZYIIIIIII",
+          1
+        ],
+        [
+          "ZZZZZZZZZZZZZZZZZZZZZZZZZXIIIIII",
+          1
+        ],
+        [
+          "ZZZZZZZZZZZZZZZZZZZZZZZZZYIIIIII",
+          1
+        ],
+        [
+          "ZZZZZZZZZZZZZZZZZZZZZZZZZZXIIIII",
+          1
+        ],
+        [
+          "ZZZZZZZZZZZZZZZZZZZZZZZZZZYIIIII",
+          1
+        ],
+        [
+          "ZZZZZZZZZZZZZZZZZZZZZZZZZZZXIIII",
+          1
+        ],
+        [
+          "ZZZZZZZZZZZZZZZZZZZZZZZZZZZYIIII",
+          1
+        ],
+        [
+          "ZZZZZZZZZZZZZZZZZZZZZZZZZZZZXIII",
+          1
+        ],
+        [
+          "ZZZZZZZZZZZZZZZZZZZZZZZZZZZZYIII",
+          1
+        ],
+        [
+          "ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZXII",
+          1
+        ],
+        [
+          "ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZYII",
+          1
+        ],
+        [
+          "ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZXI",
+          1
+        ],
+        [
+          "ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZYI",
+          1
+        ],
+        [
+          "ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZX",
+          1
+        ],
+        [
+          "ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZY",
+          1
+        ],
+        [
+          "ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ",
+          1
+        ]
+      ]
+    }
+  ],
+  "use_chvatal_gomory_floor": "no",
+  "state_expectations": {
+    "XIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII": {
+      "kind": "radical_interval",
+      "sign": 1,
+      "rad_num": 1,
+      "rad_den": 65,
+      "lo": "62017/500000",
+      "hi": "24807/200000"
+    },
+    "YIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII": {
+      "kind": "radical_interval",
+      "sign": 1,
+      "rad_num": 1,
+      "rad_den": 65,
+      "lo": "62017/500000",
+      "hi": "24807/200000"
+    },
+    "ZXIIIIIIIIIIIIIIIIIIIIIIIIIIIIII": {
+      "kind": "radical_interval",
+      "sign": 1,
+      "rad_num": 1,
+      "rad_den": 65,
+      "lo": "62017/500000",
+      "hi": "24807/200000"
+    },
+    "ZYIIIIIIIIIIIIIIIIIIIIIIIIIIIIII": {
+      "kind": "radical_interval",
+      "sign": 1,
+      "rad_num": 1,
+      "rad_den": 65,
+      "lo": "62017/500000",
+      "hi": "24807/200000"
+    },
+    "ZZXIIIIIIIIIIIIIIIIIIIIIIIIIIIII": {
+      "kind": "radical_interval",
+      "sign": 1,
+      "rad_num": 1,
+      "rad_den": 65,
+      "lo": "62017/500000",
+      "hi": "24807/200000"
+    },
+    "ZZYIIIIIIIIIIIIIIIIIIIIIIIIIIIII": {
+      "kind": "radical_interval",
+      "sign": 1,
+      "rad_num": 1,
+      "rad_den": 65,
+      "lo": "62017/500000",
+      "hi": "24807/200000"
+    },
+    "ZZZXIIIIIIIIIIIIIIIIIIIIIIIIIIII": {
+      "kind": "radical_interval",
+      "sign": 1,
+      "rad_num": 1,
+      "rad_den": 65,
+      "lo": "62017/500000",
+      "hi": "24807/200000"
+    },
+    "ZZZYIIIIIIIIIIIIIIIIIIIIIIIIIIII": {
+      "kind": "radical_interval",
+      "sign": 1,
+      "rad_num": 1,
+      "rad_den": 65,
+      "lo": "62017/500000",
+      "hi": "24807/200000"
+    },
+    "ZZZZXIIIIIIIIIIIIIIIIIIIIIIIIIII": {
+      "kind": "radical_interval",
+      "sign": 1,
+      "rad_num": 1,
+      "rad_den": 65,
+      "lo": "62017/500000",
+      "hi": "24807/200000"
+    },
+    "ZZZZYIIIIIIIIIIIIIIIIIIIIIIIIIII": {
+      "kind": "radical_interval",
+      "sign": 1,
+      "rad_num": 1,
+      "rad_den": 65,
+      "lo": "62017/500000",
+      "hi": "24807/200000"
+    },
+    "ZZZZZXIIIIIIIIIIIIIIIIIIIIIIIIII": {
+      "kind": "radical_interval",
+      "sign": 1,
+      "rad_num": 1,
+      "rad_den": 65,
+      "lo": "62017/500000",
+      "hi": "24807/200000"
+    },
+    "ZZZZZYIIIIIIIIIIIIIIIIIIIIIIIIII": {
+      "kind": "radical_interval",
+      "sign": 1,
+      "rad_num": 1,
+      "rad_den": 65,
+      "lo": "62017/500000",
+      "hi": "24807/200000"
+    },
+    "ZZZZZZXIIIIIIIIIIIIIIIIIIIIIIIII": {
+      "kind": "radical_interval",
+      "sign": 1,
+      "rad_num": 1,
+      "rad_den": 65,
+      "lo": "62017/500000",
+      "hi": "24807/200000"
+    },
+    "ZZZZZZYIIIIIIIIIIIIIIIIIIIIIIIII": {
+      "kind": "radical_interval",
+      "sign": 1,
+      "rad_num": 1,
+      "rad_den": 65,
+      "lo": "62017/500000",
+      "hi": "24807/200000"
+    },
+    "ZZZZZZZXIIIIIIIIIIIIIIIIIIIIIIII": {
+      "kind": "radical_interval",
+      "sign": 1,
+      "rad_num": 1,
+      "rad_den": 65,
+      "lo": "62017/500000",
+      "hi": "24807/200000"
+    },
+    "ZZZZZZZYIIIIIIIIIIIIIIIIIIIIIIII": {
+      "kind": "radical_interval",
+      "sign": 1,
+      "rad_num": 1,
+      "rad_den": 65,
+      "lo": "62017/500000",
+      "hi": "24807/200000"
+    },
+    "ZZZZZZZZXIIIIIIIIIIIIIIIIIIIIIII": {
+      "kind": "radical_interval",
+      "sign": 1,
+      "rad_num": 1,
+      "rad_den": 65,
+      "lo": "62017/500000",
+      "hi": "24807/200000"
+    },
+    "ZZZZZZZZYIIIIIIIIIIIIIIIIIIIIIII": {
+      "kind": "radical_interval",
+      "sign": 1,
+      "rad_num": 1,
+      "rad_den": 65,
+      "lo": "62017/500000",
+      "hi": "24807/200000"
+    },
+    "ZZZZZZZZZXIIIIIIIIIIIIIIIIIIIIII": {
+      "kind": "radical_interval",
+      "sign": 1,
+      "rad_num": 1,
+      "rad_den": 65,
+      "lo": "62017/500000",
+      "hi": "24807/200000"
+    },
+    "ZZZZZZZZZYIIIIIIIIIIIIIIIIIIIIII": {
+      "kind": "radical_interval",
+      "sign": 1,
+      "rad_num": 1,
+      "rad_den": 65,
+      "lo": "62017/500000",
+      "hi": "24807/200000"
+    },
+    "ZZZZZZZZZZXIIIIIIIIIIIIIIIIIIIII": {
+      "kind": "radical_interval",
+      "sign": 1,
+      "rad_num": 1,
+      "rad_den": 65,
+      "lo": "62017/500000",
+      "hi": "24807/200000"
+    },
+    "ZZZZZZZZZZYIIIIIIIIIIIIIIIIIIIII": {
+      "kind": "radical_interval",
+      "sign": 1,
+      "rad_num": 1,
+      "rad_den": 65,
+      "lo": "62017/500000",
+      "hi": "24807/200000"
+    },
+    "ZZZZZZZZZZZXIIIIIIIIIIIIIIIIIIII": {
+      "kind": "radical_interval",
+      "sign": 1,
+      "rad_num": 1,
+      "rad_den": 65,
+      "lo": "62017/500000",
+      "hi": "24807/200000"
+    },
+    "ZZZZZZZZZZZYIIIIIIIIIIIIIIIIIIII": {
+      "kind": "radical_interval",
+      "sign": 1,
+      "rad_num": 1,
+      "rad_den": 65,
+      "lo": "62017/500000",
+      "hi": "24807/200000"
+    },
+    "ZZZZZZZZZZZZXIIIIIIIIIIIIIIIIIII": {
+      "kind": "radical_interval",
+      "sign": 1,
+      "rad_num": 1,
+      "rad_den": 65,
+      "lo": "62017/500000",
+      "hi": "24807/200000"
+    },
+    "ZZZZZZZZZZZZYIIIIIIIIIIIIIIIIIII": {
+      "kind": "radical_interval",
+      "sign": 1,
+      "rad_num": 1,
+      "rad_den": 65,
+      "lo": "62017/500000",
+      "hi": "24807/200000"
+    },
+    "ZZZZZZZZZZZZZXIIIIIIIIIIIIIIIIII": {
+      "kind": "radical_interval",
+      "sign": 1,
+      "rad_num": 1,
+      "rad_den": 65,
+      "lo": "62017/500000",
+      "hi": "24807/200000"
+    },
+    "ZZZZZZZZZZZZZYIIIIIIIIIIIIIIIIII": {
+      "kind": "radical_interval",
+      "sign": 1,
+      "rad_num": 1,
+      "rad_den": 65,
+      "lo": "62017/500000",
+      "hi": "24807/200000"
+    },
+    "ZZZZZZZZZZZZZZXIIIIIIIIIIIIIIIII": {
+      "kind": "radical_interval",
+      "sign": 1,
+      "rad_num": 1,
+      "rad_den": 65,
+      "lo": "62017/500000",
+      "hi": "24807/200000"
+    },
+    "ZZZZZZZZZZZZZZYIIIIIIIIIIIIIIIII": {
+      "kind": "radical_interval",
+      "sign": 1,
+      "rad_num": 1,
+      "rad_den": 65,
+      "lo": "62017/500000",
+      "hi": "24807/200000"
+    },
+    "ZZZZZZZZZZZZZZZXIIIIIIIIIIIIIIII": {
+      "kind": "radical_interval",
+      "sign": 1,
+      "rad_num": 1,
+      "rad_den": 65,
+      "lo": "62017/500000",
+      "hi": "24807/200000"
+    },
+    "ZZZZZZZZZZZZZZZYIIIIIIIIIIIIIIII": {
+      "kind": "radical_interval",
+      "sign": 1,
+      "rad_num": 1,
+      "rad_den": 65,
+      "lo": "62017/500000",
+      "hi": "24807/200000"
+    },
+    "ZZZZZZZZZZZZZZZZXIIIIIIIIIIIIIII": {
+      "kind": "radical_interval",
+      "sign": 1,
+      "rad_num": 1,
+      "rad_den": 65,
+      "lo": "62017/500000",
+      "hi": "24807/200000"
+    },
+    "ZZZZZZZZZZZZZZZZYIIIIIIIIIIIIIII": {
+      "kind": "radical_interval",
+      "sign": 1,
+      "rad_num": 1,
+      "rad_den": 65,
+      "lo": "62017/500000",
+      "hi": "24807/200000"
+    },
+    "ZZZZZZZZZZZZZZZZZXIIIIIIIIIIIIII": {
+      "kind": "radical_interval",
+      "sign": 1,
+      "rad_num": 1,
+      "rad_den": 65,
+      "lo": "62017/500000",
+      "hi": "24807/200000"
+    },
+    "ZZZZZZZZZZZZZZZZZYIIIIIIIIIIIIII": {
+      "kind": "radical_interval",
+      "sign": 1,
+      "rad_num": 1,
+      "rad_den": 65,
+      "lo": "62017/500000",
+      "hi": "24807/200000"
+    },
+    "ZZZZZZZZZZZZZZZZZZXIIIIIIIIIIIII": {
+      "kind": "radical_interval",
+      "sign": 1,
+      "rad_num": 1,
+      "rad_den": 65,
+      "lo": "62017/500000",
+      "hi": "24807/200000"
+    },
+    "ZZZZZZZZZZZZZZZZZZYIIIIIIIIIIIII": {
+      "kind": "radical_interval",
+      "sign": 1,
+      "rad_num": 1,
+      "rad_den": 65,
+      "lo": "62017/500000",
+      "hi": "24807/200000"
+    },
+    "ZZZZZZZZZZZZZZZZZZZXIIIIIIIIIIII": {
+      "kind": "radical_interval",
+      "sign": 1,
+      "rad_num": 1,
+      "rad_den": 65,
+      "lo": "62017/500000",
+      "hi": "24807/200000"
+    },
+    "ZZZZZZZZZZZZZZZZZZZYIIIIIIIIIIII": {
+      "kind": "radical_interval",
+      "sign": 1,
+      "rad_num": 1,
+      "rad_den": 65,
+      "lo": "62017/500000",
+      "hi": "24807/200000"
+    },
+    "ZZZZZZZZZZZZZZZZZZZZXIIIIIIIIIII": {
+      "kind": "radical_interval",
+      "sign": 1,
+      "rad_num": 1,
+      "rad_den": 65,
+      "lo": "62017/500000",
+      "hi": "24807/200000"
+    },
+    "ZZZZZZZZZZZZZZZZZZZZYIIIIIIIIIII": {
+      "kind": "radical_interval",
+      "sign": 1,
+      "rad_num": 1,
+      "rad_den": 65,
+      "lo": "62017/500000",
+      "hi": "24807/200000"
+    },
+    "ZZZZZZZZZZZZZZZZZZZZZXIIIIIIIIII": {
+      "kind": "radical_interval",
+      "sign": 1,
+      "rad_num": 1,
+      "rad_den": 65,
+      "lo": "62017/500000",
+      "hi": "24807/200000"
+    },
+    "ZZZZZZZZZZZZZZZZZZZZZYIIIIIIIIII": {
+      "kind": "radical_interval",
+      "sign": 1,
+      "rad_num": 1,
+      "rad_den": 65,
+      "lo": "62017/500000",
+      "hi": "24807/200000"
+    },
+    "ZZZZZZZZZZZZZZZZZZZZZZXIIIIIIIII": {
+      "kind": "radical_interval",
+      "sign": 1,
+      "rad_num": 1,
+      "rad_den": 65,
+      "lo": "62017/500000",
+      "hi": "24807/200000"
+    },
+    "ZZZZZZZZZZZZZZZZZZZZZZYIIIIIIIII": {
+      "kind": "radical_interval",
+      "sign": 1,
+      "rad_num": 1,
+      "rad_den": 65,
+      "lo": "62017/500000",
+      "hi": "24807/200000"
+    },
+    "ZZZZZZZZZZZZZZZZZZZZZZZXIIIIIIII": {
+      "kind": "radical_interval",
+      "sign": 1,
+      "rad_num": 1,
+      "rad_den": 65,
+      "lo": "62017/500000",
+      "hi": "24807/200000"
+    },
+    "ZZZZZZZZZZZZZZZZZZZZZZZYIIIIIIII": {
+      "kind": "radical_interval",
+      "sign": 1,
+      "rad_num": 1,
+      "rad_den": 65,
+      "lo": "62017/500000",
+      "hi": "24807/200000"
+    },
+    "ZZZZZZZZZZZZZZZZZZZZZZZZXIIIIIII": {
+      "kind": "radical_interval",
+      "sign": 1,
+      "rad_num": 1,
+      "rad_den": 65,
+      "lo": "62017/500000",
+      "hi": "24807/200000"
+    },
+    "ZZZZZZZZZZZZZZZZZZZZZZZZYIIIIIII": {
+      "kind": "radical_interval",
+      "sign": 1,
+      "rad_num": 1,
+      "rad_den": 65,
+      "lo": "62017/500000",
+      "hi": "24807/200000"
+    },
+    "ZZZZZZZZZZZZZZZZZZZZZZZZZXIIIIII": {
+      "kind": "radical_interval",
+      "sign": 1,
+      "rad_num": 1,
+      "rad_den": 65,
+      "lo": "62017/500000",
+      "hi": "24807/200000"
+    },
+    "ZZZZZZZZZZZZZZZZZZZZZZZZZYIIIIII": {
+      "kind": "radical_interval",
+      "sign": 1,
+      "rad_num": 1,
+      "rad_den": 65,
+      "lo": "62017/500000",
+      "hi": "24807/200000"
+    },
+    "ZZZZZZZZZZZZZZZZZZZZZZZZZZXIIIII": {
+      "kind": "radical_interval",
+      "sign": 1,
+      "rad_num": 1,
+      "rad_den": 65,
+      "lo": "62017/500000",
+      "hi": "24807/200000"
+    },
+    "ZZZZZZZZZZZZZZZZZZZZZZZZZZYIIIII": {
+      "kind": "radical_interval",
+      "sign": 1,
+      "rad_num": 1,
+      "rad_den": 65,
+      "lo": "62017/500000",
+      "hi": "24807/200000"
+    },
+    "ZZZZZZZZZZZZZZZZZZZZZZZZZZZXIIII": {
+      "kind": "radical_interval",
+      "sign": 1,
+      "rad_num": 1,
+      "rad_den": 65,
+      "lo": "62017/500000",
+      "hi": "24807/200000"
+    },
+    "ZZZZZZZZZZZZZZZZZZZZZZZZZZZYIIII": {
+      "kind": "radical_interval",
+      "sign": 1,
+      "rad_num": 1,
+      "rad_den": 65,
+      "lo": "62017/500000",
+      "hi": "24807/200000"
+    },
+    "ZZZZZZZZZZZZZZZZZZZZZZZZZZZZXIII": {
+      "kind": "radical_interval",
+      "sign": 1,
+      "rad_num": 1,
+      "rad_den": 65,
+      "lo": "62017/500000",
+      "hi": "24807/200000"
+    },
+    "ZZZZZZZZZZZZZZZZZZZZZZZZZZZZYIII": {
+      "kind": "radical_interval",
+      "sign": 1,
+      "rad_num": 1,
+      "rad_den": 65,
+      "lo": "62017/500000",
+      "hi": "24807/200000"
+    },
+    "ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZXII": {
+      "kind": "radical_interval",
+      "sign": 1,
+      "rad_num": 1,
+      "rad_den": 65,
+      "lo": "62017/500000",
+      "hi": "24807/200000"
+    },
+    "ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZYII": {
+      "kind": "radical_interval",
+      "sign": 1,
+      "rad_num": 1,
+      "rad_den": 65,
+      "lo": "62017/500000",
+      "hi": "24807/200000"
+    },
+    "ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZXI": {
+      "kind": "radical_interval",
+      "sign": 1,
+      "rad_num": 1,
+      "rad_den": 65,
+      "lo": "62017/500000",
+      "hi": "24807/200000"
+    },
+    "ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZYI": {
+      "kind": "radical_interval",
+      "sign": 1,
+      "rad_num": 1,
+      "rad_den": 65,
+      "lo": "62017/500000",
+      "hi": "24807/200000"
+    },
+    "ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZX": {
+      "kind": "radical_interval",
+      "sign": 1,
+      "rad_num": 1,
+      "rad_den": 65,
+      "lo": "62017/500000",
+      "hi": "24807/200000"
+    },
+    "ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZY": {
+      "kind": "radical_interval",
+      "sign": 1,
+      "rad_num": 1,
+      "rad_den": 65,
+      "lo": "62017/500000",
+      "hi": "24807/200000"
+    },
+    "ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ": {
+      "kind": "radical_interval",
+      "sign": 1,
+      "rad_num": 1,
+      "rad_den": 65,
+      "lo": "62017/500000",
+      "hi": "24807/200000"
+    }
+  },
+  "claimed_beta_plus": "1",
+  "claimed_beta_minus": "1",
+  "claimed_W_rho_lb": "806221/100000",
+  "claimed_R_lower_bound": "806221/100000",
+  "claimed_p_noise_cert": "706221/806221",
+  "verify_exact_stab_enumeration": "no"
+}

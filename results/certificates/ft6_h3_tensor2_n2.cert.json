@@ -1,0 +1,98 @@
+{
+  "schema_version": "SYMPLECTIC-MAGIC-CERT-1.0",
+  "cert_id": "ft6_h3_tensor2_n2",
+  "tier": "Tier3_SignedFrustration",
+  "state_name": "2-qubit magic product state |H_3>^(x2) under W_FT6",
+  "n_qubits": 2,
+  "witness_W": {
+    "XX": 1,
+    "YY": 1,
+    "ZZ": 1,
+    "XI": 1,
+    "YI": 1,
+    "ZI": 1
+  },
+  "atoms": [
+    {
+      "kind": "frustrated_triple",
+      "weight": 1,
+      "terms": [
+        [
+          "XX",
+          1
+        ],
+        [
+          "YY",
+          1
+        ],
+        [
+          "ZZ",
+          1
+        ]
+      ]
+    },
+    {
+      "kind": "clique",
+      "weight": 1,
+      "terms": [
+        [
+          "XI",
+          1
+        ],
+        [
+          "YI",
+          1
+        ],
+        [
+          "ZI",
+          1
+        ]
+      ]
+    }
+  ],
+  "use_chvatal_gomory_floor": "no",
+  "state_expectations": {
+    "XX": {
+      "kind": "exact",
+      "val": "1/3"
+    },
+    "YY": {
+      "kind": "exact",
+      "val": "1/3"
+    },
+    "ZZ": {
+      "kind": "exact",
+      "val": "1/3"
+    },
+    "XI": {
+      "kind": "radical_interval",
+      "sign": 1,
+      "rad_num": 1,
+      "rad_den": 3,
+      "lo": "11547/20000",
+      "hi": "577351/1000000"
+    },
+    "YI": {
+      "kind": "radical_interval",
+      "sign": 1,
+      "rad_num": 1,
+      "rad_den": 3,
+      "lo": "11547/20000",
+      "hi": "577351/1000000"
+    },
+    "ZI": {
+      "kind": "radical_interval",
+      "sign": 1,
+      "rad_num": 1,
+      "rad_den": 3,
+      "lo": "11547/20000",
+      "hi": "577351/1000000"
+    }
+  },
+  "claimed_beta_plus": "2",
+  "claimed_beta_minus": "4",
+  "claimed_W_rho_lb": "54641/20000",
+  "claimed_R_lower_bound": "74641/60000",
+  "claimed_p_noise_cert": "14641/54641",
+  "verify_exact_stab_enumeration": "yes"
+}

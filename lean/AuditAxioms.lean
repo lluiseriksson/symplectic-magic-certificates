@@ -1,0 +1,18 @@
+import SymplecticMagic
+
+#print axioms SymplecticMagic.symp_self_zero
+#print axioms SymplecticMagic.symp_comm
+#print axioms SymplecticMagic.symp_bilinear_left
+#print axioms SymplecticMagic.anticomm_clique_at_most_one
+#print axioms SymplecticMagic.frustrated_triple_closure_bound
+#print axioms SymplecticMagic.atom_cover_upper_bound
+#print axioms SymplecticMagic.atom_cover_lower_bound
+#print axioms SymplecticMagic.chvatal_gomory_integer_floor
+#print axioms SymplecticMagic.convex_mixture_preserves_bounds
+#print axioms SymplecticMagic.shifted_robustness_lower_bound
+#print axioms SymplecticMagic.symmetric_robustness_lower_bound
+#print axioms SymplecticMagic.depolarizing_noise_threshold
+#print axioms SymplecticMagic.worst_case_rac_min_le_avg
+#print axioms SymplecticMagic.complete_pauli_rac_bound
+#print axioms SymplecticMagic.w_state_three_clique_magic
+#print axioms SymplecticMagic.c5_pentagram_beats_clique_bound

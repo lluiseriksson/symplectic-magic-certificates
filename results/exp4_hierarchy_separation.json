@@ -1,0 +1,61 @@
+{
+  "experiment": "exp4_hierarchy_separation",
+  "c5_pure_eigenvalue": 3.077684,
+  "ft8_eigenvalue": 3.236068,
+  "benchmarks": [
+    {
+      "benchmark": "Majorana K_5 mixed state (n=2)",
+      "witness": "W_{K5} (5 Paulis)",
+      "pauli_l1_R": 0.809017,
+      "tier1_single_clique_R": 2.236068,
+      "tier2_cg_clique_cover_R": 2.236068,
+      "tier3_signed_frustration_R": 2.236068,
+      "winner": "Tier 1+ beats Pauli L1 (2.236 vs 0.809 blind!)"
+    },
+    {
+      "benchmark": "Toffoli |CCZ> state (n=3)",
+      "witness": "4-Pauli clique",
+      "pauli_l1_R": 1.875,
+      "tier1_single_clique_R": 2.0,
+      "tier2_cg_clique_cover_R": 2.0,
+      "tier3_signed_frustration_R": 2.0,
+      "winner": "Tier 1+ beats 63-Pauli L1 using 4 Paulis (2.000 vs 1.875)"
+    },
+    {
+      "benchmark": "Depolarized KCBS C_5 (B_wc=9/20, n=2)",
+      "witness": "W_{C5} (5 Paulis)",
+      "pauli_l1_R": 1.353968,
+      "tier1_single_clique_R": 1.0,
+      "tier2_cg_clique_cover_R": 1.125,
+      "tier3_signed_frustration_R": 1.125,
+      "winner": "Tier 2 Chvatal-Gomory beats Tier 1 Single Clique (1.125 vs 1.000 blind!)"
+    },
+    {
+      "benchmark": "Pure KCBS C_5 eigenstate (n=2)",
+      "witness": "W_{C5} (5 Paulis)",
+      "pauli_l1_R": 1.760074,
+      "tier1_single_clique_R": 1.231073,
+      "tier2_cg_clique_cover_R": 1.538842,
+      "tier3_signed_frustration_R": 1.538842,
+      "winner": "Tier 2 improves R from 1.231 to 1.539 (+25% gain)"
+    },
+    {
+      "benchmark": "|H_3>^(x2) under W_FT6 (n=2)",
+      "witness": "(XX+YY+ZZ) + (XI+YI+ZI)",
+      "pauli_l1_R": 1.866025,
+      "tier1_single_clique_R": 1.0,
+      "tier2_cg_clique_cover_R": 1.0,
+      "tier3_signed_frustration_R": 1.244017,
+      "winner": "Tier 3 Signed Frustration beats ALL unsigned graph bounds (1.244 vs 1.000 blind!)"
+    },
+    {
+      "benchmark": "Optimal eigenstate under W_FT8 (n=2)",
+      "witness": "FT(XX+YY+ZZ) + K_5",
+      "pauli_l1_R": 1.756231,
+      "tier1_single_clique_R": 1.0,
+      "tier2_cg_clique_cover_R": 1.0,
+      "tier3_signed_frustration_R": 1.412023,
+      "winner": "Tier 3 Signed Frustration certifies R>=1.412 (p<38.2%) where unsigned alpha_w=4 fails!"
+    }
+  ]
+}

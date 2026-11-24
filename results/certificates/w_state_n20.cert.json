@@ -1,0 +1,53 @@
+{
+  "schema_version": "SYMPLECTIC-MAGIC-CERT-1.0",
+  "cert_id": "w_state_n20",
+  "tier": "Tier1_SingleClique_Marginal",
+  "state_name": "|W_20> (and 3-qubit marginal rho^(3)_W20)",
+  "n_qubits": 20,
+  "witness_W": {
+    "ZIIIIIIIIIIIIIIIIIII": 1,
+    "XXIIIIIIIIIIIIIIIIII": 1,
+    "YIYIIIIIIIIIIIIIIIII": 1
+  },
+  "atoms": [
+    {
+      "kind": "clique",
+      "weight": 1,
+      "terms": [
+        [
+          "ZIIIIIIIIIIIIIIIIIII",
+          1
+        ],
+        [
+          "XXIIIIIIIIIIIIIIIIII",
+          1
+        ],
+        [
+          "YIYIIIIIIIIIIIIIIIII",
+          1
+        ]
+      ]
+    }
+  ],
+  "use_chvatal_gomory_floor": "no",
+  "state_expectations": {
+    "ZIIIIIIIIIIIIIIIIIII": {
+      "kind": "exact",
+      "val": "9/10"
+    },
+    "XXIIIIIIIIIIIIIIIIII": {
+      "kind": "exact",
+      "val": "1/10"
+    },
+    "YIYIIIIIIIIIIIIIIIII": {
+      "kind": "exact",
+      "val": "1/10"
+    }
+  },
+  "claimed_beta_plus": "1",
+  "claimed_beta_minus": "1",
+  "claimed_W_rho_lb": "11/10",
+  "claimed_R_lower_bound": "11/10",
+  "claimed_p_noise_cert": "1/11",
+  "verify_exact_stab_enumeration": "no"
+}

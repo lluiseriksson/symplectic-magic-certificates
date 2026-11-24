@@ -1,0 +1,115 @@
+{
+  "schema_version": "SYMPLECTIC-MAGIC-CERT-1.0",
+  "cert_id": "c5_pentagram_n2",
+  "tier": "Tier2_ChvatalGomory_CliqueCover",
+  "state_name": "Depolarized 2-qubit KCBS C_5 pentagram state (B_wc = 9/20)",
+  "n_qubits": 2,
+  "witness_W": {
+    "ZI": 1,
+    "XI": 1,
+    "ZZ": 1,
+    "IX": 1,
+    "XY": 1
+  },
+  "atoms": [
+    {
+      "kind": "clique",
+      "weight": "1/2",
+      "terms": [
+        [
+          "ZI",
+          1
+        ],
+        [
+          "XI",
+          1
+        ]
+      ]
+    },
+    {
+      "kind": "clique",
+      "weight": "1/2",
+      "terms": [
+        [
+          "XI",
+          1
+        ],
+        [
+          "ZZ",
+          1
+        ]
+      ]
+    },
+    {
+      "kind": "clique",
+      "weight": "1/2",
+      "terms": [
+        [
+          "ZZ",
+          1
+        ],
+        [
+          "IX",
+          1
+        ]
+      ]
+    },
+    {
+      "kind": "clique",
+      "weight": "1/2",
+      "terms": [
+        [
+          "IX",
+          1
+        ],
+        [
+          "XY",
+          1
+        ]
+      ]
+    },
+    {
+      "kind": "clique",
+      "weight": "1/2",
+      "terms": [
+        [
+          "XY",
+          1
+        ],
+        [
+          "ZI",
+          1
+        ]
+      ]
+    }
+  ],
+  "use_chvatal_gomory_floor": "yes",
+  "state_expectations": {
+    "ZI": {
+      "kind": "exact",
+      "val": "9/20"
+    },
+    "XI": {
+      "kind": "exact",
+      "val": "9/20"
+    },
+    "ZZ": {
+      "kind": "exact",
+      "val": "9/20"
+    },
+    "IX": {
+      "kind": "exact",
+      "val": "9/20"
+    },
+    "XY": {
+      "kind": "exact",
+      "val": "9/20"
+    }
+  },
+  "claimed_beta_plus": "2",
+  "claimed_beta_minus": "2",
+  "claimed_W_rho_lb": "9/4",
+  "claimed_R_lower_bound": "9/8",
+  "claimed_p_noise_cert": "1/9",
+  "verify_exact_stab_enumeration": "yes"
+}

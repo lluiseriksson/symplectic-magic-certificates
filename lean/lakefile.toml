@@ -1,0 +1,7 @@
+name = "symplectic-magic"
+version = "1.0.0"
+defaultTargets = ["SymplecticMagic"]
+
+[[lean_lib]]
+name = "SymplecticMagic"
+roots = ["SymplecticMagic"]
