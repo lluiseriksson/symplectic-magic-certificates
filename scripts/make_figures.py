@@ -202,18 +202,21 @@ def make_fig3():
     v3 = [b["tier3_signed_frustration_R"] for b in bms]
 
     ax1.bar(x - 1.5 * w, v0, w, label=r"Pauli $\ell_1$-Norm (all $4^n-1$)", color="#6c757d", edgecolor="#222", lw=0.7)
-    ax1.bar(x - 0.5 * w, v1, w, label=r"Tier 1: Single Clique ($\omega$)", color="#e07a5f", edgecolor="#222", lw=0.7)
-    ax1.bar(x + 0.5 * w, v2, w, label=r"Tier 2: Chvátal–Gomory ($\lfloor\bar{\chi}_f\rfloor$)", color="#2a9d8f", edgecolor="#222", lw=0.7)
-    ax1.bar(x + 1.5 * w, v3, w, label="Tier 3: Signed Frustration", color="#1b6ca8", edgecolor="#222", lw=0.7)
+    ax1.bar(x - 0.5 * w, v1, w, label=r"Tier 1: Fixed-$W$ Clique ($\omega$)", color="#e07a5f", edgecolor="#222", lw=0.7)
+    ax1.bar(x + 0.5 * w, v2, w, label=r"Tier 2: Fixed-$W$ CG ($\lfloor\bar{\chi}_f\rfloor$)", color="#2a9d8f", edgecolor="#222", lw=0.7)
+    ax1.bar(x + 1.5 * w, v3, w, label="Tier 3: Fixed-$W$ Frustration", color="#1b6ca8", edgecolor="#222", lw=0.7)
+    ax1.scatter([4 - 0.5 * w, 5 - 0.5 * w], [math.sqrt(3), math.sqrt(5)], marker="D", s=52,
+                facecolors="white", edgecolors="#c1121f", linewidths=1.5, zorder=5,
+                label=r"Subset-selectable Tier 1 ($C_3, K_5$)")
     ax1.axhline(1.0, color="#c1121f", lw=1.3, linestyle="--", label=r"No-magic floor ($\mathcal{R} = 1$)")
 
     ax1.set_xticks(x)
     ax1.set_xticklabels(short_names, fontsize=8.4)
     ax1.set_ylabel(r"Certified Robustness Lower Bound $\mathcal{R}_{\mathrm{cert}}$")
-    ax1.set_ylim(0, 2.65)
+    ax1.set_ylim(0, 2.75)
     ax1.grid(axis="y", linestyle=":", alpha=0.5)
-    ax1.set_title("(a) Strict 3-Tier Separation Across Magic Benchmarks", pad=10)
-    ax1.legend(loc="upper right", frameon=True, framealpha=0.94, fontsize=7.5, ncol=2)
+    ax1.set_title("(a) Fixed-Witness 3-Tier Ceiling Separation & Subset Dominance", pad=10)
+    ax1.legend(loc="upper right", frameon=True, framealpha=0.94, fontsize=7.0, ncol=2)
 
     # Panel (b): Exact-Q Verifier Speed & End-to-End Audit Summary
     exp1 = json.loads((RES_DIR / "exp1_certified_atlas.json").read_text(encoding="utf-8"))
